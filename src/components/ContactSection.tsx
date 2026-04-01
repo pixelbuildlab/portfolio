@@ -57,7 +57,7 @@ const ContactSection = () => {
               <span>Valencia Town, Lahore 54770</span>
             </div>
             <a
-              href='https://github.com/pixelbuildlab/m-waqar-1'
+              href='https://github.com/pixelbuildlab'
               target='_blank'
               rel='noopener noreferrer'
               className='flex items-center gap-4 text-muted-foreground hover:text-foreground transition-colors group'
@@ -65,7 +65,7 @@ const ContactSection = () => {
               <div className='w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors'>
                 <Github className='w-5 h-5 text-primary' />
               </div>
-              <span>pixelbuildlab/m-waqar-1</span>
+              <span>pixelbuildlab</span>
             </a>
             <a
               href='https://linkedin.com/in/m-waqar1'

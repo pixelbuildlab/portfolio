@@ -74,7 +74,7 @@ const HeroSection = () => {
           </a>
           <div className='flex gap-4'>
             <a
-              href='https://github.com/pixelbuildlab/m-waqar-1'
+              href='https://github.com/pixelbuildlab'
               target='_blank'
               rel='noopener noreferrer'
               className='text-muted-foreground hover:text-primary transition-colors'
