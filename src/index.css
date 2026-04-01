@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/spacegrotesk/v16/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqUtEw.woff2)
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/jetbrainsmono/v18/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPVmUsaaDhw.woff2)
+    format('woff2');
+}
+
+@layer base {
+  :root {
+    --background: 240 15% 6%;
+    --foreground: 60 10% 92%;
+
+    --card: 240 12% 10%;
+    --card-foreground: 60 10% 92%;
+
+    --popover: 240 12% 10%;
+    --popover-foreground: 60 10% 92%;
+
+    --primary: 15 90% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 260 70% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 240 10% 14%;
+    --muted-foreground: 240 5% 55%;
+
+    --accent: 170 70% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 10% 18%;
+    --input: 240 10% 18%;
+    --ring: 15 90% 58%;
+
+    --radius: 0.75rem;
+
+    --glow: 15 90% 58%;
+
+    --sidebar-background: 240 15% 6%;
+    --sidebar-foreground: 60 10% 92%;
+    --sidebar-primary: 15 90% 58%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 10% 14%;
+    --sidebar-accent-foreground: 60 10% 92%;
+    --sidebar-border: 240 10% 18%;
+    --sidebar-ring: 15 90% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-display;
+  }
+}
