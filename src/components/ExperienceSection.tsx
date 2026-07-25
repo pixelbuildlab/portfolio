@@ -34,7 +34,7 @@ const ExperienceSection = () => {
             </div>
             <div className='mb-1'>
               <span className='font-mono text-xs text-primary'>
-                February 2023 — Present
+                August 2023 — Present
               </span>
             </div>
             <h4 className='text-xl font-bold'>Software Engineer</h4>

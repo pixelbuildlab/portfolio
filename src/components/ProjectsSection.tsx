@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import { ExternalLink, Github } from 'lucide-react'
 
 const projects = [
   {
@@ -8,6 +7,23 @@ const projects = [
       'Contributed to an enterprise insurance platform using TypeScript, React, Nx monorepo, AWS Lambda, MariaDB, and Redis. Managed serverless backend services and asynchronous workflows with SNS and ECS.',
     tags: ['React.js', 'TypeScript', 'AWS', 'Fastify', 'MariaDB', 'Redis'],
     color: 'primary' as const,
+  },
+  {
+    title: 'DocRag',
+    description:
+      'A simple Retrieval-Augmented Generation (RAG) application that lets you ingest documents and web pages, index them into a vector database, and perform semantic search.',
+    tags: [
+      'RAG',
+      'LLM',
+      'Vector DB',
+      'FastAPI',
+      'Python',
+      'PostgreSQL',
+      'Ollama',
+      'Qdrant',
+    ],
+    color: 'primary' as const,
+    link: 'https://github.com/pixelbuildlab/ragdoc',
   },
   {
     title: 'Gmail–Jira Automation',
@@ -24,7 +40,7 @@ const projects = [
     color: 'accent' as const,
   },
   {
-    title: 'SPARK AI',
+    title: 'Sparkup AI',
     description:
       'AI dashboard application automating workflows using React.js and TypeScript. Built with Material UI reusable components and Reactflow for visual workflow creation.',
     tags: ['React.js', 'TypeScript', 'Material UI', 'Reactflow'],
@@ -36,6 +52,7 @@ const projects = [
       'Full-stack app on Nest.js and React.js for polygon data management with Turf.js. Converted GraphQL to REST APIs, used Prisma with PostgreSQL, and Docker for deployment.',
     tags: ['Nest.js', 'React.js', 'Prisma', 'PostgreSQL', 'Turf.js'],
     color: 'secondary' as const,
+    link: 'https://orijin.io/',
   },
   {
     title: 'HRM & ATS Platform',
@@ -91,6 +108,17 @@ const ProjectsSection = () => {
               <div className='flex flex-col md:flex-row md:items-start justify-between gap-4'>
                 <div className='flex-1'>
                   <h4 className='text-xl font-bold mb-2'>{project.title}</h4>
+
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='text-sm text-blue-500 hover:underline'
+                    >
+                      View Project →
+                    </a>
+                  )}
                   <p className='text-muted-foreground text-sm mb-4 leading-relaxed'>
                     {project.description}
                   </p>

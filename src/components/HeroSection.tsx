@@ -48,10 +48,9 @@ const HeroSection = () => {
           transition={{ delay: 0.7 }}
           className='text-base text-muted-foreground max-w-2xl mx-auto mb-10'
         >
-          Enthusiastic about software development and skilled at resolving
-          challenges. Full-stack developer crafting scalable solutions with
-          modern technologies across Python, Node.js, React, and cloud
-          platforms.
+          Software Engineer evolving into an AI Full-Stack Engineer, focused on
+          creating intelligent, scalable applications powered by LLMs, agentic
+          AI, and modern web technologies.
         </motion.p>
 
         <motion.div
