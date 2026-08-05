@@ -1006,3 +1006,10 @@ button {
     gap: 10px;
   }
 }
+
+@media (max-width: 700px) {
+  .snapshot-shell { width: 100%; box-sizing: border-box; }
+  .snapshot-hero { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+  .snapshot-hero h1 { width: 100%; min-width: 0; font-size: clamp(48px, 16vw, 72px); overflow-wrap: break-word; }
+  .snapshot-kicker, .snapshot-intro, .snapshot-projects { min-width: 0; }
+}
