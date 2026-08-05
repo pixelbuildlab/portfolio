@@ -1,0 +1,31 @@
+# Muhammad Waqar
+
+> Muhammad Waqar is a Lahore-based Software Engineer evolving into an AI Full-Stack Engineer. He builds intelligent applications, enterprise systems, developer automations, and scalable web services.
+
+## Profile
+
+- Role: Software Engineer
+- Location: Lahore, Pakistan
+- Email: mailto:waqardanish1@gmail.com
+- GitHub: https://github.com/pixelbuildlab
+- LinkedIn: https://linkedin.com/in/m-waqar1
+
+## Experience
+
+- Software Engineer at Allzone Technologies, August 2023 — Present: enterprise insurance systems, AWS Lambda, Fastify, TypeScript, MariaDB, Redis, microservices, SNS, ECS, on-call operations, vulnerability remediation, Snyk, Dynatrace, Node.js upgrades, MySQL to SQL Server migration, TurboRepo, Jest, Docker, and GitHub Actions CI/CD.
+- PEEF Trainee Software Engineer at Allzone Technologies, February 2023 — August 2023: React, TypeScript, Node.js, Express, MongoDB, and Carbon Design System.
+
+## Education
+
+- B.S. Software Engineering, International Islamic University — Islamabad, September 2018 — September 2022, CGPA 3.27.
+- Oracle Cloud Infrastructure AI Foundations Associate Certification, 2025.
+
+## Selected projects
+
+- Enterprise Insurance Platform: enterprise insurance services, asynchronous workflows, production support, observability, and serverless backend systems.
+- DocRag: Retrieval-Augmented Generation application for document ingestion, semantic search, and vector retrieval. https://github.com/pixelbuildlab/ragdoc
+- Gmail–Jira Automation: Python system that reads Gmail, structures messages, and turns them into Jira tickets.
+- Jira Change Notification Bot: real-time monitoring and stakeholder notifications for Jira events.
+- Sparkup AI: AI workflow dashboard with reusable components and visual workflow creation.
+- Orijin — Polygon Data Management: full-stack polygon management with spatial APIs and deployment. https://orijin.io/
+- HRM & ATS Platform: full-stack people platform with real-time notifications and server-side rendering.

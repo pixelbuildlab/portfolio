@@ -6,7 +6,7 @@ export default function Snapshot() {
     <main className='snapshot-shell'>
       <div className='snapshot-grain' />
       <header className='snapshot-header'>
-        <span>MW / 2026</span>
+        <span>MW / 2023</span>
         <span>LAHORE, PK</span>
         <span>AVAILABLE FOR SELECT WORK</span>
       </header>
