@@ -1000,6 +1000,39 @@ button {
 .mode-signal .signal-side {
   background: #7771d9;
 }
+.signal-experience-entry {
+  padding: 14px 0 4px;
+  border-top: 1px solid #20213f;
+}
+.signal-experience-entry > small {
+  display: block;
+  font: 10px 'JetBrains Mono', monospace;
+}
+.signal-experience-entry h3 {
+  margin: 6px 0 0;
+  font-size: clamp(19px, 2vw, 28px);
+  line-height: .95;
+  letter-spacing: -.04em;
+}
+.signal-experience-entry h3 i {
+  color: #f36d98;
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+.signal-experience-entry p {
+  margin: 8px 0;
+  font-size: 13px;
+  line-height: 1.3;
+}
+.signal-experience-entry ul {
+  margin: 0;
+  padding: 0 0 8px 16px;
+  font-size: 12px;
+  line-height: 1.35;
+}
+.signal-experience-entry li::marker {
+  color: #f36d98;
+}
 @media (max-width: 700px) {
   .orbit-experience-card {
     grid-template-columns: 1fr;

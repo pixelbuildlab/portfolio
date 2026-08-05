@@ -2,8 +2,8 @@ export type Mode = 'snapshot' | 'orbit' | 'signal'
 
 const modes: { id: Mode; label: string; note: string }[] = [
   { id: 'snapshot', label: '01 / Snapshot', note: 'one-screen editorial' },
-  { id: 'orbit', label: '02 / Orbit', note: 'dark spatial system' },
-  { id: 'signal', label: '03 / Signal', note: 'electric new wave' },
+  { id: 'signal', label: '02 / Signal', note: 'electric new wave' },
+  { id: 'orbit', label: '03 / Orbit', note: 'dark spatial system' },
 ]
 
 export default function DesignSelector({

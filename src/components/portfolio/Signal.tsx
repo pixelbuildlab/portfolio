@@ -54,12 +54,19 @@ export default function Signal() {
           </small>
         </article>
         <article className='signal-exp'>
-          <p>02 / FIELD NOTES</p>
-          <ul>
-            {experiences[0].highlights.map((highlight) => (
-              <li key={highlight}>{highlight}</li>
-            ))}
-          </ul>
+          <p>02 / EXPERIENCE ARCHIVE</p>
+          {experiences.map((experience) => (
+            <div className='signal-experience-entry' key={experience.title}>
+              <small>{experience.period} · {experience.location}</small>
+              <h3>{experience.title} <i>/ {experience.company}</i></h3>
+              <p>{experience.summary}</p>
+              <ul>
+                {experience.highlights.map((highlight) => (
+                  <li key={highlight}>{highlight}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </article>
         <article className='signal-projects'>
           <p>03 / PROJECT INDEX</p>
