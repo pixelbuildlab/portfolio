@@ -1013,3 +1013,13 @@ button {
   .snapshot-hero h1 { width: 100%; min-width: 0; font-size: clamp(48px, 16vw, 72px); overflow-wrap: break-word; }
   .snapshot-kicker, .snapshot-intro, .snapshot-projects { min-width: 0; }
 }
+
+/* Snapshot is intentionally a fixed one-screen composition. */
+.mode-snapshot { min-height:100svh; overflow:hidden; }
+.mode-snapshot .snapshot-shell { min-height:100svh; }
+@media (max-width:700px) {
+  .mode-snapshot { height:100svh; min-height:100svh; max-height:100svh; overflow:hidden; }
+  .mode-snapshot .snapshot-shell { height:100svh; min-height:0; max-height:100svh; overflow:hidden; }
+  .mode-snapshot .snapshot-hero { align-content:center; gap:10px; }
+  .mode-snapshot .snapshot-bottom { padding-bottom:0; }
+}
